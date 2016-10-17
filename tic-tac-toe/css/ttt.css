@@ -1,0 +1,50 @@
+html, body, h1, figure, ul, li  {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  background-color: inherit;
+}
+body {
+  text-align: center;
+}
+figure {
+  display: inline-block;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 48px;
+}
+
+.ttt ul {
+  width: 300px;
+  list-style: none;
+}
+
+.ttt ul li {
+  background-color: grey;
+  float: left;
+  height: 90px;
+  width: 90px;
+  border: 5px solid black;
+  font-size: 30px;
+}
+.ttt ul li:hover {
+  background-color: yellow;
+}
+
+.ttt ul li.x, .ttt ul li.o {
+  background-color: white;
+}
+
+.x:after {
+  content: "x";
+}
+
+.o:after {
+  content: "o";
+}
+::after {
+  line-height: 2.7;
+}
