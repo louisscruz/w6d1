@@ -1,0 +1,55 @@
+html, body, h1, figure, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  font: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size:42px;
+}
+.hanoi {
+  width: 720px;
+  margin: auto;
+}
+
+.hanoi ul {
+  list-style: none;
+  border-bottom: 20px solid black;
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  text-align: center;
+  float: left;
+}
+
+.hanoi ul:hover {
+  border-bottom: 20px solid blue;
+  cursor: pointer;
+}
+
+.disc {
+  background-color: red;
+  margin: 10px auto;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.disc-1 {
+  width: 32px;
+}
+
+.disc-2 {
+  width: 64px;
+}
+
+.disc-3 {
+  width: 96px;
+}
